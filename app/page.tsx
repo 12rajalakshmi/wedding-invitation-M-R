@@ -177,7 +177,7 @@ export default function WeddingInvitation() {
     <main className="wedding-page">
       <audio
         ref={audioRef}
-        src="/music/wedding-music.mp3.mpeg"
+        src="/music/wedding-music.mp3"
         loop
         preload="auto"
         onPlay={() => setMusicOn(true)}
